@@ -191,6 +191,16 @@ footer {
   clear: left;
 }
 
+.coming-soon {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 @media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
