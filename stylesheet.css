@@ -79,13 +79,21 @@ header {
   font-weight: normal;
 }
 
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .work {
-  float: left;
   width: 25%;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .skill {
-  float: left;
   width: 25%;
 }
 
@@ -205,16 +213,20 @@ footer {
     font-size: 14px;
   }
 
+  .works-wrapper {
+    height: auto;
+  }
+
   .work {
     width: 100%;
   }
 
-  .skill {
-    width: 100%;
+  .skills-wrapper {
+    height: auto;
   }
 
-  .skills-wrapper {
-    height: 1700px;
+  .skill {
+    width: 100%;
   }
 
   .works-wrapper .btn {
