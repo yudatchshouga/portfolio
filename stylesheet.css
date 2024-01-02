@@ -99,7 +99,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
+  height: 100vh;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
