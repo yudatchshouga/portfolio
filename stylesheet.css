@@ -78,24 +78,15 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34,49,52,0.9);
+  background-color: rgba(34,49,52,1);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
 .header-right {
-  float: right;
-  margin-right: -25px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-right a {
@@ -103,7 +94,6 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
-  float: left;
   transition: all 0.5s;
 }
 
