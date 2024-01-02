@@ -81,12 +81,12 @@ header {
   z-index: 10;
 }
 
-.header-right {
+.nav-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.header-right a {
+.nav-wrapper a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -94,11 +94,11 @@ header {
   transition: all 0.5s;
 }
 
-.header-right a:hover {
+.nav-wrapper a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.lesson-wrapper {
+.skills-wrapper {
   height: 100vh;
   padding-bottom: 80px;
   padding-left: 5%;
@@ -117,7 +117,12 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.work {
+  float: left;
+  width: 25%;
+}
+
+.skill {
   float: left;
   width: 25%;
 }
@@ -208,12 +213,17 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
-  .lesson {
+  .work {
     width: 50%;
     margin-bottom: 50px;
   }
 
-  .lesson-wrapper {
+  .skill {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .skills-wrapper {
     height: 990px;
   }
 
@@ -233,7 +243,7 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-  .header-right {
+  .nav-wrapper {
     display: none;
   }
 
@@ -261,11 +271,15 @@ footer {
     font-size: 14px;
   }
 
-  .lesson {
+  .work {
     width: 100%;
   }
 
-  .lesson-wrapper {
+  .skill {
+    width: 100%;
+  }
+
+  .skills-wrapper {
     height: 1700px;
   }
 
