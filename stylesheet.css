@@ -145,10 +145,11 @@ header {
   font-weight: normal;
 }
 
-.message-wrapper {
+.works-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  height: 100vh;
 }
 
 .message {
@@ -252,7 +253,7 @@ footer {
     height: 1700px;
   }
 
-  .message-wrapper .btn {
+  .works-wrapper .btn {
     width: 100%;
   }
 }
