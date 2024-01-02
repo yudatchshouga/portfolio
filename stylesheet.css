@@ -118,6 +118,14 @@ footer {
   padding-bottom: 20px;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .clear {
   clear: left;
 }
