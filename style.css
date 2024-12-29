@@ -1,3 +1,16 @@
-.title {
-    color: red;
+* {
+    margin: 0;
+}
+
+header {
+    height: 60px;
+}
+
+main {
+    background-color: #ecf5ff;
+    height: calc(100vh - 120px);
+}
+
+footer {
+    height: 60px;
 }
